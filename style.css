@@ -1,0 +1,46 @@
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: green;
+}
+body,input {
+    background-color: black;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+}
+
+input{
+    outline: none;
+    border: 2px solid rgb(64, 216, 64);
+}
+
+section{
+    width: fit-content;
+    background-color: rgb(165, 226, 165);
+    border-radius: 5px;
+    transition: all ease-in 200ms;
+}
+section:hover {
+    scale: 1.1;
+}
+button, section, header{
+    padding: 0.3rem;
+}
+button{
+    background-color: rgb(72, 204, 72);
+    border: none;
+}
+
+button,input {
+    font-weight: bold;
+}
+
